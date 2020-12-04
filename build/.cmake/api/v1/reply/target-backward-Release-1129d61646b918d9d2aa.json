@@ -1,0 +1,132 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "backward-cpp/libbackward.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"backward-cpp/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 86,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 88,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -O3 -Wall -Wextra -pedantic-errors -g -O3 -DNDEBUG  "
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "BACKWARD_HAS_BACKTRACE=0"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BACKWARD_HAS_BACKTRACE_SYMBOL=0"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BACKWARD_HAS_BFD=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BACKWARD_HAS_DW=0"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BACKWARD_HAS_DWARF=0"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BACKWARD_HAS_LIBUNWIND=0"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BACKWARD_HAS_UNWIND=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/proteininja/source/ti4-map-generator/backward-cpp"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "backward::@6f0790252e73799adbde",
+	"name" : "backward",
+	"nameOnDisk" : "libbackward.a",
+	"paths" : 
+	{
+		"build" : "backward-cpp",
+		"source" : "backward-cpp"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "backward-cpp/backward.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

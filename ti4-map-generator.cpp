@@ -135,7 +135,7 @@ class Tile
     Tile(int);
     Tile(int, string);
     Tile(int, list<Planet>, Wormhole, Anomaly);
-    Tile(int, list<Planet>, string race);
+    Tile(int, list<Planet>, string race, Anomaly);
     string get_description_string() const;
     int get_number();
     Wormhole get_wormhole();
@@ -252,12 +252,12 @@ Tile::Tile(int n, list<Planet> p, Wormhole w, Anomaly a)
     }
 }
 
-Tile::Tile(int n, list<Planet> p, string race1)
+Tile::Tile(int n, list<Planet> p, string race1, Anomaly a)
 {
     number = n;
     planets = p;
     wormhole = NO_WORMHOLE;
-    anomaly = NO_ANOMALY;
+    anomaly = a;
     race = race1;
 
     resources = 0;
@@ -411,7 +411,7 @@ Tile create_tile_from_json(json j)
 
     if (j.find("race") != j.end()) {
         string race = j["race"];
-        return Tile(number, planets, race);
+        return Tile(number, planets, race, anomaly);
     } else {
         return Tile(number, planets, wormhole, anomaly);
     }

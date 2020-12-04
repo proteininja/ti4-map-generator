@@ -378,9 +378,373 @@
 					"tech": "NO_TECH"
 				}
 			]
+		},
+		{
+			"number": 59,
+			"wormhole": "NO_WORMHOLE",
+			"anomaly": "NO_ANOMALY",
+			"planets": [
+				{
+					"name": "Archon Vail",
+					"resources": 1,
+					"influence": 3,
+					"trait": "HAZARDOUS",
+					"tech": "BLUE"
+				}
+			]
+		},
+		{
+			"number": 60,
+			"wormhole": "NO_WORMHOLE",
+			"anomaly": "NO_ANOMALY",
+			"planets": [
+				{
+					"name": "Perimeter",
+					"resources": 2,
+					"influence": 1,
+					"trait": "INDUSTRIAL",
+					"tech": "NO_TECH"
+				}
+			]
+		},
+		{
+			"number": 61,
+			"wormhole": "NO_WORMHOLE",
+			"anomaly": "NO_ANOMALY",
+			"planets": [
+				{
+					"name": "Ang",
+					"resources": 2,
+					"influence": 0,
+					"trait": "INDUSTRIAL",
+					"tech": "RED"
+				}
+			]
+		},
+		{
+			"number": 61,
+			"wormhole": "NO_WORMHOLE",
+			"anomaly": "NO_ANOMALY",
+			"planets": [
+				{
+					"name": "Ang",
+					"resources": 2,
+					"influence": 0,
+					"trait": "INDUSTRIAL",
+					"tech": "RED"
+				}
+			]
+		},
+		{
+			"number": 62,
+			"wormhole": "NO_WORMHOLE",
+			"anomaly": "NO_ANOMALY",
+			"planets": [
+				{
+					"name": "Sem-Lore",
+					"resources": 3,
+					"influence": 2,
+					"trait": "CULTURAL",
+					"tech": "YELLOW"
+				}
+			]
+		},
+		{
+			"number": 63,
+			"wormhole": "NO_WORMHOLE",
+			"anomaly": "NO_ANOMALY",
+			"planets": [
+				{
+					"name": "Vorhal",
+					"resources": 3,
+					"influence": 2,
+					"trait": "CULTURAL",
+					"tech": "GREEN"
+				}
+			]
+		},
+		{
+			"number": 64,
+			"wormhole": "BETA",
+			"anomaly": "NO_ANOMALY",
+			"planets": [
+				{
+					"name": "Atlas",
+					"resources": 3,
+					"influence": 1,
+					"trait": "HAZARDOUS",
+					"tech": "NO_TECH"
+				}
+			]
+		},
+		{
+			"number": 65,
+			"wormhole": "NO_WORMHOLE",
+			"anomaly": "NO_ANOMALY",
+			"planets": [
+				{
+					"name": "Primor",
+					"resources": 2,
+					"influence": 1,
+					"trait": "CULTURAL",
+					"tech": "NO_TECH"
+				}
+			]
+		},
+		{
+			"number": 66,
+			"wormhole": "NO_WORMHOLE",
+			"anomaly": "NO_ANOMALY",
+			"planets": [
+				{
+					"name": "Hope's End",
+					"resources": 3,
+					"influence": 0,
+					"trait": "HAZARDOUS",
+					"tech": "NO_TECH"
+				}
+			]
+		},
+		{
+			"number": 69,
+			"wormhole": "NO_WORMHOLE",
+			"anomaly": "NO_ANOMALY",
+			"planets": [
+				{
+					"name": "Accoen",
+					"resources": 2,
+					"influence": 3,
+					"trait": "INDUSTRIAL",
+					"tech": "NO_TECH"
+				},
+				{
+					"name": "Jeol Ir",
+					"resources": 2,
+					"influence": 3,
+					"trait": "INDUSTRIAL",
+					"tech": "NO_TECH"
+				}
+			]
+		},
+		{
+			"number": 70,
+			"wormhole": "NO_WORMHOLE",
+			"anomaly": "NO_ANOMALY",
+			"planets": [
+				{
+					"name": "Kraag",
+					"resources": 2,
+					"influence": 1,
+					"trait": "HAZARDOUS",
+					"tech": "NO_TECH"
+				},
+				{
+					"name": "Siig",
+					"resources": 0,
+					"influence": 2,
+					"trait": "HAZARDOUS",
+					"tech": "NO_TECH"
+				}
+			]
+		},
+		{
+			"number": 71,
+			"wormhole": "NO_WORMHOLE",
+			"anomaly": "NO_ANOMALY",
+			"planets": [
+				{
+					"name": "Alio Prima",
+					"resources": 1,
+					"influence": 1,
+					"trait": "CULTURAL",
+					"tech": "NO_TECH"
+				},
+				{
+					"name": "Ka'kal",
+					"resources": 3,
+					"influence": 2,
+					"trait": "INDUSTRIAL",
+					"tech": "NO_TECH"
+				}
+			]
+		},
+		{
+			"number": 72,
+			"wormhole": "NO_WORMHOLE",
+			"anomaly": "NO_ANOMALY",
+			"planets": [
+				{
+					"name": "Lisis",
+					"resources": 2,
+					"influence": 2,
+					"trait": "INDUSTRIAL",
+					"tech": "NO_TECH"
+				},
+				{
+					"name": "Velnor",
+					"resources": 2,
+					"influence": 1,
+					"trait": "INDUSTRIAL",
+					"tech": "RED"
+				}
+			]
+		},
+		{
+			"number": 73,
+			"wormhole": "NO_WORMHOLE",
+			"anomaly": "NO_ANOMALY",
+			"planets": [
+				{
+					"name": "Cealdri",
+					"resources": 0,
+					"influence": 2,
+					"trait": "CULTURAL",
+					"tech": "YELLOW"
+				},
+				{
+					"name": "Xanhact",
+					"resources": 0,
+					"influence": 1,
+					"trait": "HAZARDOUS",
+					"tech": "NO_TECH"
+				}
+			]
+		},
+		{
+			"number": 74,
+			"wormhole": "NO_WORMHOLE",
+			"anomaly": "NO_ANOMALY",
+			"planets": [
+				{
+					"name": "Vega Major",
+					"resources": 2,
+					"influence": 1,
+					"trait": "CULTURAL",
+					"tech": "NO_TECH"
+				},
+				{
+					"name": "Vega Minor",
+					"resources": 1,
+					"influence": 2,
+					"trait": "CULTURAL",
+					"tech": "BLUE"
+				}
+			]
+		},
+		{
+			"number": 75,
+			"wormhole": "NO_WORMHOLE",
+			"anomaly": "NO_ANOMALY",
+			"planets": [
+				{
+					"name": "Ashtroth",
+					"resources": 2,
+					"influence": 0,
+					"trait": "HAZARDOUS",
+					"tech": "NO_TECH"
+				},
+				{
+					"name": "Abaddon",
+					"resources": 1,
+					"influence": 0,
+					"trait": "CULTURAL",
+					"tech": "NO_TECH"
+				},
+				{
+					"name": "Loki",
+					"resources": 1,
+					"influence": 2,
+					"trait": "CULTURAL",
+					"tech": "NO_TECH"
+				}
+			]
+		},
+		{
+			"number": 76,
+			"wormhole": "NO_WORMHOLE",
+			"anomaly": "NO_ANOMALY",
+			"planets": [
+				{
+					"name": "Rigel I",
+					"resources": 1,
+					"influence": 0,
+					"trait": "HAZARDOUS",
+					"tech": "NO_TECH"
+				},
+				{
+					"name": "Rigel II",
+					"resources": 1,
+					"influence": 2,
+					"trait": "INDUSTRIAL",
+					"tech": "NO_TECH"
+				},
+				{
+					"name": "Rigel III",
+					"resources": 1,
+					"influence": 1,
+					"trait": "INDUSTRIAL",
+					"tech": "GREEN"
+				}
+			]
 		}
 	],
 	"red_tiles": [
+		{
+			"number": 67,
+			"wormhole": "NO_WORMHOLE",
+			"anomaly": "GRAVITY_RIFT",
+			"planets": [
+				{
+					"name": "Cormund",
+					"resources": 2,
+					"influence": 0,
+					"trait": "HAZARDOUS",
+					"tech": "NO_TECH"
+				}
+			]
+		},
+		{
+			"number": 68,
+			"wormhole": "NO_WORMHOLE",
+			"anomaly": "NEBULA",
+			"planets": [
+				{
+					"name": "Everra",
+					"resources": 3,
+					"influence": 1,
+					"trait": "CULTURAL",
+					"tech": "NO_TECH"
+				}
+			]
+		},
+		{
+			"number": 77,
+			"wormhole": "NO_WORMHOLE",
+			"anomaly": "EMPTY",
+			"planets": [
+			]
+		},
+		{
+			"number": 78,
+			"wormhole": "NO_WORMHOLE",
+			"anomaly": "EMPTY",
+			"planets": [
+			]
+		},
+		{
+			"number": 79,
+			"wormhole": "ALPHA",
+			"anomaly": "ASTEROID_FIELD",
+			"planets": [
+			]
+		},
+		{
+			"number": 80,
+			"wormhole": "NO_WORMHOLE",
+			"anomaly": "SUPERNOVA",
+			"planets": [
+			]
+		},
 		{
 			"number": 45,
 			"wormhole": "NO_WORMHOLE",
@@ -800,8 +1164,133 @@
 					"trait": "NO_TRAIT",
 					"tech": "NO_TECH"
 				}
-			]
-			
+			]			
+		},
+		{
+			"number": 52,
+			"race": "The Mahact Gene Sorcerers",
+			"wormhole": "NO_WORMHOLE",
+			"anomaly": "NO_ANOMALY",
+			"planets": [
+				{
+					"name": "Ixth",
+					"resources": 3,
+					"influence": 5,
+					"trait": "NO_TRAIT",
+					"tech": "NO_TECH"
+				}
+			]	
+		},
+		{
+			"number": 53,
+			"race": "The Nomad",
+			"wormhole": "NO_WORMHOLE",
+			"anomaly": "NO_ANOMALY",
+			"planets": [
+				{
+					"name": "Arcturus",
+					"resources": 4,
+					"influence": 4,
+					"trait": "NO_TRAIT",
+					"tech": "NO_TECH"
+				}
+			]	
+		},
+		{
+			"number": 54,
+			"race": "The Vuil'Raith Cabal",
+			"wormhole": "NO_WORMHOLE",
+			"anomaly": "NO_ANOMALY",
+			"planets": [
+				{
+					"name": "Acheron",
+					"resources": 4,
+					"influence": 0,
+					"trait": "NO_TRAIT",
+					"tech": "NO_TECH"
+				}
+			]	
+		},
+		{
+			"number": 55,
+			"race": "The Titans of Ul",
+			"wormhole": "NO_WORMHOLE",
+			"anomaly": "NO_ANOMALY",
+			"planets": [
+				{
+					"name": "Elysium",
+					"resources": 4,
+					"influence": 1,
+					"trait": "NO_TRAIT",
+					"tech": "NO_TECH"
+				}
+			]	
+		},
+		{
+			"number": 56,
+			"race": "The Empyrean",
+			"wormhole": "NO_WORMHOLE",
+			"anomaly": "NEBULA",
+			"planets": [
+				{
+					"name": "The Dark",
+					"resources": 3,
+					"influence": 4,
+					"trait": "NO_TRAIT",
+					"tech": "NO_TECH"
+				}
+			]	
+		},
+		{
+			"number": 57,
+			"race": "The Naaz-Rokha Alliance",
+			"wormhole": "NO_WORMHOLE",
+			"anomaly": "NO_ANOMALY",
+			"planets": [
+				{
+					"name": "Naazir",
+					"resources": 2,
+					"influence": 1,
+					"trait": "NO_TRAIT",
+					"tech": "NO_TECH"
+				},
+				{
+					"name": "Rokha",
+					"resources": 1,
+					"influence": 2,
+					"trait": "NO_TRAIT",
+					"tech": "NO_TECH"
+				}
+			]	
+		},
+		{
+			"number": 58,
+			"race": "The Argent Flight",
+			"wormhole": "NO_WORMHOLE",
+			"anomaly": "NO_ANOMALY",
+			"planets": [
+				{
+					"name": "Valk",
+					"resources": 2,
+					"influence": 0,
+					"trait": "NO_TRAIT",
+					"tech": "NO_TECH"
+				},
+				{
+					"name": "Avar",
+					"resources": 1,
+					"influence": 1,
+					"trait": "NO_TRAIT",
+					"tech": "NO_TECH"
+				},
+				{
+					"name": "Ylir",
+					"resources": 0,
+					"influence": 2,
+					"trait": "NO_TRAIT",
+					"tech": "NO_TECH"
+				}
+			]	
 		}
 	]
 }

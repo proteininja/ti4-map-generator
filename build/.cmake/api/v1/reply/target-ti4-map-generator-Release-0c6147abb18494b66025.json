@@ -1,0 +1,200 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "ti4-map-generator"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"set_property",
+			"add_backward",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"backward-cpp/BackwardConfig.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 206,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 205,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -O3 -O3 -DNDEBUG  "
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "BACKWARD_HAS_BACKTRACE=0"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BACKWARD_HAS_BACKTRACE_SYMBOL=0"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BACKWARD_HAS_BFD=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BACKWARD_HAS_DW=0"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BACKWARD_HAS_DWARF=0"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BACKWARD_HAS_LIBUNWIND=0"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BACKWARD_HAS_UNWIND=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/proteininja/source/ti4-map-generator/."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/proteininja/source/ti4-map-generator/./include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/proteininja/source/ti4-map-generator/backward-cpp"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "backward_object::@6f0790252e73799adbde"
+		}
+	],
+	"id" : "ti4-map-generator::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g -O3 -O3 -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lbfd",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "ti4-map-generator",
+	"nameOnDisk" : "ti4-map-generator",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ti4-map-generator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/backward-cpp/CMakeFiles/backward_object.dir/backward.cpp.o",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}
